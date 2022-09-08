@@ -13,6 +13,11 @@ Caso deseje adicionar outros delimitadores, utilize a variável abaixo:
 
 - paresDelimitadores = [ ('(',')'),('[',']'),('{','}') ]
 
+## Requirements
+
+- Python >= 3.6
+- xdoctest
+
 
 Testes automatizados:
 
