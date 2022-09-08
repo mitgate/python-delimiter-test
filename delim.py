@@ -15,9 +15,9 @@ def test_delim(source):
     >>> test_delim('')
     True
 
-    """   
-
-    paresDelimitadores = [('[', ']'), ('(', ')'), ('{', '}')]
+    """
+    
+    paresDelimitadores = [ ('(',')'),('[',']'),('{','}') ]
     delimAbertos = set(o for o,c in paresDelimitadores)
     delimFechadoParaAberto = dict((c,o) for o,c in paresDelimitadores)
 
@@ -33,6 +33,5 @@ def test_delim(source):
 
 
 
-
 print( test_delim(']') )
-print ( test_delim('0]') )
+print( test_delim('0]') )
