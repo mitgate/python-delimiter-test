@@ -1,14 +1,15 @@
 # python-delimiter-test
 <br />
 <br />
-PT_BR: Função para verificar se todos os delimitadores são correspondentes e fechados. 
+- PT_BR: Função para verificar se todos os delimitadores são correspondentes e fechados. 
 <br />
 <br />
-EN: Function to check that all delimiters are matched and closed
+- EN: Function to check that all delimiters are matched and closed
 <br />
 <br />
 
-![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png)  Testes automatizados:
+![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) Testes automatizados:
+
 
 <br />
 ```
@@ -69,3 +70,5 @@ DOCTEST RESULT
 ============
 === 1 passed in 0.09 seconds ===
 ```
+
+
