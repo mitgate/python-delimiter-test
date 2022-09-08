@@ -34,3 +34,38 @@ $ pip install xdoctest
 $ python -m xdoctest delim.py
 <br />
 <br />
+
+o resultado será:
+
+```
+=====================================
+_  _ ___  ____ ____ ___ ____ ____ ___
+ \/  |  \ |  | |     |  |___ [__   |
+_/\_ |__/ |__| |___  |  |___ ___]  |
+
+=====================================
+
+Start doctest_module('delim.py')
+Listing tests
+gathering tests
+running 1 test(s)
+====== <exec> ======
+* DOCTEST : delim.py::test_delim:0, line 3 <- wrt source file
+DOCTEST SOURCE
+1 >>> test_delim('{(blabla)5555}[1123123(testestesteste)999]')
+  True
+4 >>> test_delim('{ (altoqi) } [')
+  False
+7 >>> test_delim('[ { ] }')
+  False
+10 >>> test_delim('')
+  True
+DOCTEST STDOUT/STDERR
+False
+False
+DOCTEST RESULT
+* SUCCESS: delim.py::test_delim:0
+====== </exec> ======
+============
+=== 1 passed in 0.09 seconds ===
+```
