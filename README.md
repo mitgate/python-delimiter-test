@@ -8,10 +8,12 @@
 <br />
 <br />
 
-![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png) Testes automatizados:
+
+Testes automatizados:
 
 
 <br />
+
 ```
     """
     >>> test_delim('{(blabla)5555}[1123123(testestesteste)999]')
