@@ -11,19 +11,19 @@ EN: Function to check that all delimiters are matched and closed
 
 Testes automatizados.
 <br />
+```
+    """
+    >>> test_delim('{(blabla)5555}[1123123(testestesteste)999]')
+    True
+    >>> test_delim('{ (altoqi) } [')
+    False
+    >>> test_delim('[ { ] }')
+    False
+    >>> test_delim('')
+    True
+    """
 
-+    """
-+    >>> test_delim('{(blabla)5555}[1123123(testestesteste)999]')
-+    True
-+    >>> test_delim('{ (altoqi) } [')
-+    False
-+    >>> test_delim('[ { ] }')
-+    False
-*    >>> test_delim('')
-*    True
-+    """
-
-
+```
 Para executar testes automatizados da função, recomendo o xdoctest
 <br />
 
