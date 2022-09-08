@@ -8,6 +8,11 @@
 <br />
 <br />
 
+Caso deseje adicionar outros delimitadores, utilize a variável abaixo:
+<br />
+
+- paresDelimitadores = [ ('(',')'),('[',']'),('{','}') ]
+
 
 Testes automatizados:
 
