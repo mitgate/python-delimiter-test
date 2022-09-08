@@ -8,8 +8,8 @@ EN: Function to check that all delimiters are matched and closed
 <br />
 <br />
 
+![#1589F0](https://via.placeholder.com/15/1589F0/1589F0.png)  Testes automatizados:
 
-Testes automatizados.
 <br />
 ```
     """
