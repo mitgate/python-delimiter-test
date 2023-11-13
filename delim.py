@@ -18,8 +18,8 @@ def test_delim(source):
     """
     
     paresDelimitadores = [ ('(',')'),('[',']'),('{','}') ]
-    delimAbertos = set(o for o,c in paresDelimitadores)
-    delimFechadoParaAberto = dict((c,o) for o,c in paresDelimitadores)
+    delimAbertos = {o for o,c in paresDelimitadores}
+    delimFechadoParaAberto = {c: o for o,c in paresDelimitadores}
 
 
     delimArray = ['']
